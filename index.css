@@ -1,0 +1,30 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .banner {
+      background-color: #FF0000; /* YouTube red */
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 30px;
+    }
+    .banner .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .banner .actions button {
+      background-color: space gray;
+      color: #FF0000;
+      border: none;
+      padding: 10px 20px;
+      font-size: 50px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: 0.3s;
+    }
+    .banner .actions button:hover {
+      background-color: #e5e5e5;
+    }
